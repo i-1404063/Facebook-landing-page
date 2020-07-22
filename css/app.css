@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+}
+
+.header {
+    background: #3e5c9a;
+    /* overflow: hidden; */
+    padding: 8px 0;
+}
+
+.header::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    max-width: 966px;
+}
+
+.facebook-logo {
+    width: 30%;
+    float: left;
+}
+
+.facebook-logo img {
+    width: 160px;
+    margin-top: 26px;
+}
+
+.login-area {
+    width: 70%;
+    float: left;
+    color: #fff;
+}
+
+.login-area form {
+    float: right;
+}
+
+.login-area label,
+.login-area input {
+    display: block;
+}
+
+.login-area .email,
+.login-area .password,
+.login-area .login {
+    float: left;
+    margin-right: 15px;
+}
+
+.login-area .login {
+    margin-right: 0;
+    margin-top: 25px;
+}
+
+.login-area label {
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.login-area a {
+    text-decoration: none;
+    color: #9cb4d8;
+}
+
+.login-area a:hover {
+    text-decoration: underline;
+}
+
+.login-area input[type="text"],
+.login-area input[type="password"] {
+    border: 1px solid #000;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 2px 5px;
+}
+
+.login-area input[type="button"] {
+    height: 26px;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+}
+
+
+/* header ends here */
+
+
+/* section starts here */
+
+.signup {
+    margin-top: 20px;
+    background: linear-gradient(#fff, #D4D9E9);
+    overflow: hidden;
+}
+
+.signup-left {
+    width: 55%;
+    float: left;
+}
+
+.signup-right {
+    width: 45%;
+    float: left;
+}
+
+.signup-left img {
+    width: 100%;
+}
+
+.signup-left p {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    width: 90%;
+}
+
+.signup-right h2 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.signup-right h4 {
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.form-area input[type="text"],
+.form-area input[type="password"] {
+    width: 100%;
+    border: 1px solid #ccd0d5;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border-color: #bdc7d8;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+.firstname {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.surname {
+    width: 48%;
+    float: left;
+}
+
+.birthday {
+    overflow: hidden;
+}
+
+.birthday h4 {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: #90949c;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.birth-date {
+    overflow: hidden;
+    margin-right: 10px;
+    float: left;
+}
+
+.birth-date select {
+    font-size: 15px;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.birth-link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 2px;
+    border: 1px solid #90949c;
+    border-radius: 50%;
+}
+
+.gender {
+    overflow: hidden;
+}
+
+.gender h4 {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: #90949c;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gender .gender-child {
+    font-size: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.what a {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px 2px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.text-box {
+    margin-bottom: 20px;
+}
+
+.text-box p {
+    font-size: 13px;
+    width: 80%;
+    color: #777;
+    text-align: justify;
+}
+
+.text-box a {
+    text-decoration: none;
+}
+
+.text-box a:hover {
+    text-decoration: underline;
+}
+
+.submit input {
+    background: linear-gradient(#67ae55, #578843);
+    min-width: 190px;
+    padding: 7px 14px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.submit input:hover {
+    background: linear-gradient(#578843, #67ae55);
+    cursor: pointer;
+}
+
+.submit {
+    margin-bottom: 30px;
+}
+
+.page {
+    color: #666;
+}
+
+.page a {
+    text-decoration: none;
+    color: #385898;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.page a:hover {
+    text-decoration: underline;
+}
+
+
+/* footer area start here */
+
+.footer-area {
+    padding: 30px 0;
+}
+
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-area ul li {
+    display: inline;
+}
+
+.footer-area .active a {
+    color: #737373;
+}
+
+.footer-area .top ul li {
+    margin-right: 7px;
+}
+
+.footer-area .middle ul li {
+    margin-right: 10px;
+}
+
+.footer-area .top ul li:last-child,
+.footer-area .middle ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-area ul li a {
+    text-decoration: none;
+    color: #365899;
+    font-size: 13px;
+}
+
+.footer-area ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-area .bottom {
+    font-size: 13px;
+    color: #737373;
+    margin-top: 15px;
+}
+
+.footer-area .top,
+.footer-area .middle {
+    margin-bottom: 15px;
+}
+
+.footer-area hr {
+    width: 980px;
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.footer-area .top .material-icons {
+    margin-bottom: 0px;
+}

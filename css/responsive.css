@@ -1,0 +1,51 @@
+@media screen and (max-width:980px) {
+    .facebook-logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .login-area {
+        width: 100%;
+        float: none;
+        padding: 0 150px;
+    }
+    .login-area form {
+        float: none;
+    }
+    .login-area .email,
+    .login-area .password,
+    .login-area .login {
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"] {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .signup-left {
+        width: 100%;
+        float: none;
+    }
+    .signup-right {
+        width: 100%;
+        float: none;
+    }
+    .signup-left p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .login-area {
+        padding: 0 35px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .login-area {
+        padding: 0 35px;
+    }
+}
